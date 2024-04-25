@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table-Form</title>
+  <style>
+    table, td, th {
+      border: 2px solid black;
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+  <a href="form.html">Go to form</a>
+  <table> 
+    <caption>
+      some text
+    </caption>
+    <colgroup>
+      <col style="background: red;">
+    <col span="2" style="background: blue;" >
+    </colgroup>
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>name</th>
+      <th>price</th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr>
+      <td>1</td>
+      <td>xiaomi</td>
+      <th>200$</th>
+      <tr>
+        <td>2</td>
+        <td>Iphone</td>
+        <td>300$</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Summary</td>
+          <td>300$</td>
+        </tr>
+      </tfoot>
+    </table>
+</body>
+</html>
